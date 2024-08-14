@@ -1,0 +1,53 @@
+.cartBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poster-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-product-cart {
+  width: 100px;
+}
+
+.ingImage {
+  width: 50px;
+}
+
+.ulList {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.itemList {
+  display: flex;
+  align-items: center;
+}
+
+.grayback {
+  opacity: 0.5;
+}
+
+.countMeal {
+  margin: 0;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: rgba(25, 155, 79, 0.448);
+  border-radius: 50px;
+}
+
+.wrapper_Meal {
+  display: flex;
+  margin-top: 15px;
+  padding: 10px 10px;
+  border: 1px solid;
+  align-items: center;
+}
+
+.productTotalImage {
+  width: 20px;
+}
